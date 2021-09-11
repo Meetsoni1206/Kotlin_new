@@ -1,9 +1,11 @@
 
-
-fun showUserInfo(name:String){
+var name:String? = null
+fun showUserInfo(){
+    name = "welcome Meet"
     print("name: $name")
 }
 fun main(){
-    val name = "Meet"
-    showUserInfo(name)
+    name = "Meet"
+    println(name)
+    showUserInfo()
 }
